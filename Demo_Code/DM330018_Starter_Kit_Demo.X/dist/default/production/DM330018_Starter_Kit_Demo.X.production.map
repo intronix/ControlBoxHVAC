@@ -93,10 +93,10 @@ section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200               0x44e           0x675  (1653)
 .const                       0x64e               0x172           0x22b  (555)
-.text                        0x7c0              0x157c          0x203a  (8250)
-.dinit                      0x1d3c                0x1e            0x2d  (45)
+.text                        0x7c0              0x157a          0x2037  (8247)
+.dinit                      0x1d3a                0x1e            0x2d  (45)
 
-                 Total program memory used (bytes):         0x2907  (10503) 4%
+                 Total program memory used (bytes):         0x2904  (10500) 4%
 
 
 Ivt Memory  [Origin = 0x4, Length = 0x1fc]
@@ -130,7 +130,7 @@ section                    address      alignment gaps    total length  (dec)
 .nbss                       0x1000                   0            0x32  (50)
 .ndata                      0x1032                   0             0x6  (6)
 .bss                        0x1038                   0            0x72  (114)
-_04C97A205963d9e5           0x1200                   0           0x200  (512)
+_04A9EA2059746c55           0x1200                   0           0x200  (512)
 
                  Total data memory used (bytes):          0x2aa  (682) 4%
 
@@ -243,95 +243,95 @@ External Symbols in Program Memory (by address):
                   0x0005f0                  ___floatundisf
                   0x0007c0                  _main
                   0x000864                  _Transmit_Data
-                  0x000aea                  _InitSENT1_RX
-                  0x000b74                  _Receive_Data
-                  0x000b9e                  _clearIntrflags
-                  0x000bc4                  _Can_RX_to_UART
-                  0x000e1c                  _Lin_RX_to_UART
-                  0x001026                  _Sent_RX_to_UART
-                  0x001200                  _init_hw
-                  0x001286                  _Test_Mode
-                  0x0012d4                  _LED_Receive
-                  0x0012fe                  _LED_Transmit
-                  0x001328                  _InitSENT1_TX
-                  0x00138c                  _oscConfig
-                  0x0013a8                  _InitCAN
-                  0x00148e                  _CAN_Transmit
-                  0x001500                  _ADCInit
-                  0x001536                  _ADCConvert
-                  0x001592                  _InitLIN_TX
-                  0x0015ce                  _InitLIN_RX
-                  0x001602                  _InitMonitor
-                  0x00162e                  _LIN_Transmit
-                  0x001784                  _Calc_Checksum
-                  0x0017a4                  _delay_10ms
-                  0x0017ba                  _Delayus
-                  0x0017d6                  _ftoa
-                  0x0018b2                  _putsU2
-                  0x0018ce                  _putU2
-                  0x0018e6                  _rxECAN
-                  0x001b18                  _clearRxFlags
-                  0x001b54                  __T1Interrupt
-                  0x001b66                  __T2Interrupt
-                  0x001b78                  __C1Interrupt
-                  0x001bb0                  __U1TXInterrupt
-                  0x001bc8                  __U2TXInterrupt
-                  0x001be0                  __U1RXInterrupt
-                  0x001c52                  __U1ErrInterrupt
-                  0x001c6a                  __U2RXInterrupt
-                  0x001c72                  __SENT1Interrupt
-                  0x001ca8                  __SENT1ERRInterrupt
-                  0x001cc6                  __DMA0Interrupt
-                  0x001cce                  __DMA1Interrupt
-                  0x001cd6                  __DMA2Interrupt
-                  0x001cde                  __DMA3Interrupt
-                  0x001ce6                  __DefaultInterrupt
-                  0x001d02                  __OscillatorFail
-                  0x001d1e                  __MathError
-                  0x001d28                  __StackError
-                  0x001d32                  __AddressError
+                  0x000ae8                  _InitSENT1_RX
+                  0x000b72                  _Receive_Data
+                  0x000b9c                  _clearIntrflags
+                  0x000bc2                  _Can_RX_to_UART
+                  0x000e1a                  _Lin_RX_to_UART
+                  0x001024                  _Sent_RX_to_UART
+                  0x0011fe                  _init_hw
+                  0x001284                  _Test_Mode
+                  0x0012d2                  _LED_Receive
+                  0x0012fc                  _LED_Transmit
+                  0x001326                  _InitSENT1_TX
+                  0x00138a                  _oscConfig
+                  0x0013a6                  _InitCAN
+                  0x00148c                  _CAN_Transmit
+                  0x0014fe                  _ADCInit
+                  0x001534                  _ADCConvert
+                  0x001590                  _InitLIN_TX
+                  0x0015cc                  _InitLIN_RX
+                  0x001600                  _InitMonitor
+                  0x00162c                  _LIN_Transmit
+                  0x001782                  _Calc_Checksum
+                  0x0017a2                  _delay_10ms
+                  0x0017b8                  _Delayus
+                  0x0017d4                  _ftoa
+                  0x0018b0                  _putsU2
+                  0x0018cc                  _putU2
+                  0x0018e4                  _rxECAN
+                  0x001b16                  _clearRxFlags
+                  0x001b52                  __T1Interrupt
+                  0x001b64                  __T2Interrupt
+                  0x001b76                  __C1Interrupt
+                  0x001bae                  __U1TXInterrupt
+                  0x001bc6                  __U2TXInterrupt
+                  0x001bde                  __U1RXInterrupt
+                  0x001c50                  __U1ErrInterrupt
+                  0x001c68                  __U2RXInterrupt
+                  0x001c70                  __SENT1Interrupt
+                  0x001ca6                  __SENT1ERRInterrupt
+                  0x001cc4                  __DMA0Interrupt
+                  0x001ccc                  __DMA1Interrupt
+                  0x001cd4                  __DMA2Interrupt
+                  0x001cdc                  __DMA3Interrupt
+                  0x001ce4                  __DefaultInterrupt
+                  0x001d00                  __OscillatorFail
+                  0x001d1c                  __MathError
+                  0x001d26                  __StackError
+                  0x001d30                  __AddressError
 
 External Symbols in Program Memory (by name):
 
-                  0x001536                  _ADCConvert
-                  0x001500                  _ADCInit
-                  0x00148e                  _CAN_Transmit
-                  0x001784                  _Calc_Checksum
-                  0x000bc4                  _Can_RX_to_UART
-                  0x0017ba                  _Delayus
-                  0x0013a8                  _InitCAN
-                  0x0015ce                  _InitLIN_RX
-                  0x001592                  _InitLIN_TX
-                  0x001602                  _InitMonitor
-                  0x000aea                  _InitSENT1_RX
-                  0x001328                  _InitSENT1_TX
-                  0x0012d4                  _LED_Receive
-                  0x0012fe                  _LED_Transmit
-                  0x00162e                  _LIN_Transmit
-                  0x000e1c                  _Lin_RX_to_UART
-                  0x000b74                  _Receive_Data
-                  0x001026                  _Sent_RX_to_UART
-                  0x001286                  _Test_Mode
+                  0x001534                  _ADCConvert
+                  0x0014fe                  _ADCInit
+                  0x00148c                  _CAN_Transmit
+                  0x001782                  _Calc_Checksum
+                  0x000bc2                  _Can_RX_to_UART
+                  0x0017b8                  _Delayus
+                  0x0013a6                  _InitCAN
+                  0x0015cc                  _InitLIN_RX
+                  0x001590                  _InitLIN_TX
+                  0x001600                  _InitMonitor
+                  0x000ae8                  _InitSENT1_RX
+                  0x001326                  _InitSENT1_TX
+                  0x0012d2                  _LED_Receive
+                  0x0012fc                  _LED_Transmit
+                  0x00162c                  _LIN_Transmit
+                  0x000e1a                  _Lin_RX_to_UART
+                  0x000b72                  _Receive_Data
+                  0x001024                  _Sent_RX_to_UART
+                  0x001284                  _Test_Mode
                   0x000864                  _Transmit_Data
-                  0x001d32                  __AddressError
-                  0x001b78                  __C1Interrupt
-                  0x001cc6                  __DMA0Interrupt
-                  0x001cce                  __DMA1Interrupt
-                  0x001cd6                  __DMA2Interrupt
-                  0x001cde                  __DMA3Interrupt
-                  0x001ce6                  __DefaultInterrupt
-                  0x001d1e                  __MathError
-                  0x001d02                  __OscillatorFail
-                  0x001ca8                  __SENT1ERRInterrupt
-                  0x001c72                  __SENT1Interrupt
-                  0x001d28                  __StackError
-                  0x001b54                  __T1Interrupt
-                  0x001b66                  __T2Interrupt
-                  0x001c52                  __U1ErrInterrupt
-                  0x001be0                  __U1RXInterrupt
-                  0x001bb0                  __U1TXInterrupt
-                  0x001c6a                  __U2RXInterrupt
-                  0x001bc8                  __U2TXInterrupt
+                  0x001d30                  __AddressError
+                  0x001b76                  __C1Interrupt
+                  0x001cc4                  __DMA0Interrupt
+                  0x001ccc                  __DMA1Interrupt
+                  0x001cd4                  __DMA2Interrupt
+                  0x001cdc                  __DMA3Interrupt
+                  0x001ce4                  __DefaultInterrupt
+                  0x001d1c                  __MathError
+                  0x001d00                  __OscillatorFail
+                  0x001ca6                  __SENT1ERRInterrupt
+                  0x001c70                  __SENT1Interrupt
+                  0x001d26                  __StackError
+                  0x001b52                  __T1Interrupt
+                  0x001b64                  __T2Interrupt
+                  0x001c50                  __U1ErrInterrupt
+                  0x001bde                  __U1RXInterrupt
+                  0x001bae                  __U1TXInterrupt
+                  0x001c68                  __U2RXInterrupt
+                  0x001bc6                  __U2TXInterrupt
                   0x0002fe                  ___addsf3
                   0x0003b8                  ___divsf3
                   0x00043c                  ___eqsf2
@@ -356,16 +356,16 @@ External Symbols in Program Memory (by name):
                   0x000502                  __funpack2
                   0x00023c                  __psv_init
                   0x000200                  __resetPRI
-                  0x000b9e                  _clearIntrflags
-                  0x001b18                  _clearRxFlags
-                  0x0017a4                  _delay_10ms
-                  0x0017d6                  _ftoa
-                  0x001200                  _init_hw
+                  0x000b9c                  _clearIntrflags
+                  0x001b16                  _clearRxFlags
+                  0x0017a2                  _delay_10ms
+                  0x0017d4                  _ftoa
+                  0x0011fe                  _init_hw
                   0x0007c0                  _main
-                  0x00138c                  _oscConfig
-                  0x0018ce                  _putU2
-                  0x0018b2                  _putsU2
-                  0x0018e6                  _rxECAN
+                  0x00138a                  _oscConfig
+                  0x0018cc                  _putU2
+                  0x0018b0                  _putsU2
+                  0x0018e4                  _rxECAN
 
 Memory Configuration
 
@@ -543,18 +543,18 @@ __FALTREG
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x5a64
+.debug_info       0x000000       0x5a60
  *(.debug_info)
- .debug_info      0x000000       0x5a64 build/default/production/33EV_main_v11.o
+ .debug_info      0x000000       0x5a60 build/default/production/33EV_main_v11.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x1e1
  *(.debug_abbrev)
  .debug_abbrev    0x000000        0x1e1 build/default/production/33EV_main_v11.o
 
-.debug_line       0x000000        0x401
+.debug_line       0x000000        0x402
  *(.debug_line)
- .debug_line      0x000000        0x401 build/default/production/33EV_main_v11.o
+ .debug_line      0x000000        0x402 build/default/production/33EV_main_v11.o
 
 .debug_frame      0x000000        0x5e4
  *(.debug_frame)
@@ -2108,9 +2108,9 @@ __c30_signature
                     0x1032                  _tickTime
                     0x1034                  _peripheralClk
 
-_04C97A205963d9e5
+_04A9EA2059746c55
                     0x1200        0x200
- _04C97A205963d9e5
+ _04A9EA2059746c55
                     0x1200        0x200 build/default/production/33EV_main_v11.o
                     0x1200                  _ecan1MsgBuf
 
@@ -2214,60 +2214,60 @@ _04C97A205963d9e5
 .const              0x864e        0x172 load address 0x00064e  
  .const             0x864e        0x172 build/default/production/33EV_main_v11.o
 
-.text             0x0007c0       0x157c
- .text            0x0007c0       0x157c build/default/production/33EV_main_v11.o
+.text             0x0007c0       0x157a
+ .text            0x0007c0       0x157a build/default/production/33EV_main_v11.o
                   0x0007c0                  _main
                   0x000864                  _Transmit_Data
-                  0x000aea                  _InitSENT1_RX
-                  0x000b74                  _Receive_Data
-                  0x000b9e                  _clearIntrflags
-                  0x000bc4                  _Can_RX_to_UART
-                  0x000e1c                  _Lin_RX_to_UART
-                  0x001026                  _Sent_RX_to_UART
-                  0x001200                  _init_hw
-                  0x001286                  _Test_Mode
-                  0x0012d4                  _LED_Receive
-                  0x0012fe                  _LED_Transmit
-                  0x001328                  _InitSENT1_TX
-                  0x00138c                  _oscConfig
-                  0x0013a8                  _InitCAN
-                  0x00148e                  _CAN_Transmit
-                  0x001500                  _ADCInit
-                  0x001536                  _ADCConvert
-                  0x001592                  _InitLIN_TX
-                  0x0015ce                  _InitLIN_RX
-                  0x001602                  _InitMonitor
-                  0x00162e                  _LIN_Transmit
-                  0x001784                  _Calc_Checksum
-                  0x0017a4                  _delay_10ms
-                  0x0017ba                  _Delayus
-                  0x0017d6                  _ftoa
-                  0x0018b2                  _putsU2
-                  0x0018ce                  _putU2
-                  0x0018e6                  _rxECAN
-                  0x001b18                  _clearRxFlags
-                  0x001b54                  __T1Interrupt
-                  0x001b66                  __T2Interrupt
-                  0x001b78                  __C1Interrupt
-                  0x001bb0                  __U1TXInterrupt
-                  0x001bc8                  __U2TXInterrupt
-                  0x001be0                  __U1RXInterrupt
-                  0x001c52                  __U1ErrInterrupt
-                  0x001c6a                  __U2RXInterrupt
-                  0x001c72                  __SENT1Interrupt
-                  0x001ca8                  __SENT1ERRInterrupt
-                  0x001cc6                  __DMA0Interrupt
-                  0x001cce                  __DMA1Interrupt
-                  0x001cd6                  __DMA2Interrupt
-                  0x001cde                  __DMA3Interrupt
-                  0x001ce6                  __DefaultInterrupt
-                  0x001d02                  __OscillatorFail
-                  0x001d1e                  __MathError
-                  0x001d28                  __StackError
-                  0x001d32                  __AddressError
+                  0x000ae8                  _InitSENT1_RX
+                  0x000b72                  _Receive_Data
+                  0x000b9c                  _clearIntrflags
+                  0x000bc2                  _Can_RX_to_UART
+                  0x000e1a                  _Lin_RX_to_UART
+                  0x001024                  _Sent_RX_to_UART
+                  0x0011fe                  _init_hw
+                  0x001284                  _Test_Mode
+                  0x0012d2                  _LED_Receive
+                  0x0012fc                  _LED_Transmit
+                  0x001326                  _InitSENT1_TX
+                  0x00138a                  _oscConfig
+                  0x0013a6                  _InitCAN
+                  0x00148c                  _CAN_Transmit
+                  0x0014fe                  _ADCInit
+                  0x001534                  _ADCConvert
+                  0x001590                  _InitLIN_TX
+                  0x0015cc                  _InitLIN_RX
+                  0x001600                  _InitMonitor
+                  0x00162c                  _LIN_Transmit
+                  0x001782                  _Calc_Checksum
+                  0x0017a2                  _delay_10ms
+                  0x0017b8                  _Delayus
+                  0x0017d4                  _ftoa
+                  0x0018b0                  _putsU2
+                  0x0018cc                  _putU2
+                  0x0018e4                  _rxECAN
+                  0x001b16                  _clearRxFlags
+                  0x001b52                  __T1Interrupt
+                  0x001b64                  __T2Interrupt
+                  0x001b76                  __C1Interrupt
+                  0x001bae                  __U1TXInterrupt
+                  0x001bc6                  __U2TXInterrupt
+                  0x001bde                  __U1RXInterrupt
+                  0x001c50                  __U1ErrInterrupt
+                  0x001c68                  __U2RXInterrupt
+                  0x001c70                  __SENT1Interrupt
+                  0x001ca6                  __SENT1ERRInterrupt
+                  0x001cc4                  __DMA0Interrupt
+                  0x001ccc                  __DMA1Interrupt
+                  0x001cd4                  __DMA2Interrupt
+                  0x001cdc                  __DMA3Interrupt
+                  0x001ce4                  __DefaultInterrupt
+                  0x001d00                  __OscillatorFail
+                  0x001d1c                  __MathError
+                  0x001d26                  __StackError
+                  0x001d30                  __AddressError
 
-.dinit            0x001d3c         0x1e
- .dinit           0x001d3c         0x1e data_init
+.dinit            0x001d3a         0x1e
+ .dinit           0x001d3a         0x1e data_init
 
 Cross Reference Table
 
@@ -2721,7 +2721,7 @@ __linked_.nbss                                    dist/default/production/DM3300
 __linked_.ndata                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked_.reset                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked_.text                                    dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
-__linked__04C97A205963d9e5                        dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
+__linked__04A9EA2059746c55                        dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked___FDMT                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked___FICD                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf
 __linked___FOSC                                   dist/default/production/DM330018_Starter_Kit_Demo.X.production.elf

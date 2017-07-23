@@ -1,5 +1,5 @@
 # 1 "33EV_main_v11.c"
-# 1 "C:\\Users\\krishna\\Desktop\\HVAC_ControlBox\\ControlBoxHVAC.git\\Demo_Code\\DM330018_Starter_Kit_Demo.X//"
+# 1 "C:\\Users\\krishna\\Desktop\\HVAC_ControlBox\\ControlBoxHVAC\\Demo_Code\\DM330018_Starter_Kit_Demo.X//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "33EV_main_v11.c"
@@ -8814,14 +8814,7 @@ void Transmit_Data(void)
 
     LIN_Transmit();
     Delayus(8000);
-
-
-
-
-
-
-
-    CAN_Transmit();
+# 473 "33EV_main_v11.c"
     Delayus(5000);
 
 }
